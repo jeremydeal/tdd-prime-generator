@@ -5,32 +5,19 @@ namespace PrimeGenerator
 {
     public class Generator
     {
-        public string GeneratePrimes(string input)
+        public int[] GeneratePrimes(int max)
         {
-            if (IsNumeric(input))
+            int[] primes = new int[0];
+
+            // we only need to check for primes greater than 1
+            if (max > 1)
             {
-                int max = int.Parse(input);
-                string output = "";
-
-                // we only need to check for primes greater than 1
-                if (max > 1)
-                {
-                    bool[] crossedOutNumbers = UncrossNumbersToCheck(max);
-                    crossedOutNumbers = CrossOutNumbers(crossedOutNumbers);
-                    int[] primes = PopulatePrimesArray(crossedOutNumbers);
-                    output = StringifyPrimes(primes);
-                }
-
-                return output;
+                bool[] crossedOutNumbers = UncrossNumbersToCheck(max);
+                crossedOutNumbers = CrossOutNumbers(crossedOutNumbers);
+                primes = PopulatePrimesArray(crossedOutNumbers);
             }
-            else
-                return "Please enter an integer.";
-        }
 
-        private string StringifyPrimes(int[] primesArray)
-        {
-            string output = string.Join(", ", primesArray);
-            return output;
+            return primes;
         }
 
         private int[] PopulatePrimesArray(bool[] crossedOutNumbers)
@@ -79,7 +66,7 @@ namespace PrimeGenerator
                 if (output[i] == false)
                 {
                     // cross out all multiples of i
-                    for (int j = i*2; j < output.Count(); j += i)
+                    for (int j = i * 2; j < output.Count(); j += i)
                     {
                         output[j] = true;
                     }
@@ -112,18 +99,5 @@ namespace PrimeGenerator
 
             return output;
         }
-
-        #region Helper Methods
-        /// <summary>
-        /// Checks whether a string can be read as an integer.
-        /// </summary>
-        /// <param name="input"></param>
-        /// <returns></returns>
-        private bool IsNumeric(string input)
-        {
-            int test;
-            return int.TryParse(input, out test);
-        }
-        #endregion
     }
 }
