@@ -1,0 +1,6 @@
+C:\Users\jeremy.n.deal\Documents\Visual Studio 2013\Projects\C#\PrimeGenerator\PrimeGenerator\bin\Debug\PrimeGenerator.exe.config
+C:\Users\jeremy.n.deal\Documents\Visual Studio 2013\Projects\C#\PrimeGenerator\PrimeGenerator\obj\Debug\PrimeGenerator.csprojResolveAssemblyReference.cache
+C:\Users\jeremy.n.deal\Documents\Visual Studio 2013\Projects\C#\PrimeGenerator\PrimeGenerator\bin\Debug\PrimeGenerator.exe
+C:\Users\jeremy.n.deal\Documents\Visual Studio 2013\Projects\C#\PrimeGenerator\PrimeGenerator\bin\Debug\PrimeGenerator.pdb
+C:\Users\jeremy.n.deal\Documents\Visual Studio 2013\Projects\C#\PrimeGenerator\PrimeGenerator\obj\Debug\PrimeGenerator.exe
+C:\Users\jeremy.n.deal\Documents\Visual Studio 2013\Projects\C#\PrimeGenerator\PrimeGenerator\obj\Debug\PrimeGenerator.pdb

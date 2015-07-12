@@ -1,0 +1,7 @@
+C:\Users\jeremy.n.deal\Documents\Visual Studio 2013\Projects\C#\PrimeGenerator\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\jeremy.n.deal\Documents\Visual Studio 2013\Projects\C#\PrimeGenerator\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\jeremy.n.deal\Documents\Visual Studio 2013\Projects\C#\PrimeGenerator\UnitTestProject1\bin\Debug\PrimeGenerator.exe
+C:\Users\jeremy.n.deal\Documents\Visual Studio 2013\Projects\C#\PrimeGenerator\UnitTestProject1\bin\Debug\PrimeGenerator.pdb
+C:\Users\jeremy.n.deal\Documents\Visual Studio 2013\Projects\C#\PrimeGenerator\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+C:\Users\jeremy.n.deal\Documents\Visual Studio 2013\Projects\C#\PrimeGenerator\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\jeremy.n.deal\Documents\Visual Studio 2013\Projects\C#\PrimeGenerator\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
